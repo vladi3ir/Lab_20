@@ -25,11 +25,62 @@ header .logo a{
     width:300px;
 }
 
-footer .Linkedin{
+header .home a{
+    height: 100vh;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("images/home.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    text-indent: -99999999999999px;
+    top: -0px;
+    width:300px;
+}
 
+header .about a{
+    background-image: url("images/about.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    text-indent: -99999999999999px;
+    top: -0px;
+    width:300px;
+}
+
+header .contact a{
+    background-image: url("images/contact.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    text-indent: -99999999999999px;
+    top: -0px;
+    width:300px;
+}
+
+header .portfolio a{
+    background-image: url("images/portfolio.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    text-indent: -99999999999999px;
+    top: -0px;
+    width:300px;
+}
+
+footer .Linkedin{
     background-image: url("images/Logo.png");
     background-size: 30px;
-
 }
 
 section{
